@@ -30,5 +30,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void BtnTelaParque(View view){
+        Intent intent = new Intent(this, MainActivity4.class);
+        startActivity(intent);
+    }
+
 
 }

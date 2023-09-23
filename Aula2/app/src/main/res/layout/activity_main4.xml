@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parque Natural Chico Mendes "
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@mipmap/zoo2" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@mipmap/zoo3" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@tools:sample/avatars"
+                app:srcCompat="@mipmap/zoo4" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O Parque Natural dos Esportes &quot;Chico Mendes&quot;, criado em 22 de dezembro de 1977, é um parque municipal da cidade de Sorocaba. Possui uma grande área verde, 155.649 m² com cobertura vegetal predominante de eucaliptos, um lago e trilhas para atividades educativas. Há também preservação de áreas de mata ciliar. Situa-se na Avenida Três de Março, 1.025 - Alto da Boa Vista - Sorocaba - SP, na estrada que vai para o Bairro Aparecidinha." />
+
+            <Button
+                android:id="@+id/btnMapaParque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="BtnMapaParque"
+                android:text="Mapa" />
+
+            <Button
+                android:id="@+id/btnSiteParque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="BtnNavegadorParque"
+                android:text="Site" />
+
+            <Button
+                android:id="@+id/btnTelParque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="BtnTelefoneParque"
+                android:text="Ligar" />
+
+            <Button
+                android:id="@+id/btnVoltarParque"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnFechar"
+                android:text="Voltar" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
