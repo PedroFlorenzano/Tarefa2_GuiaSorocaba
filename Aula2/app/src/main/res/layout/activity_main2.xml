@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parque Zoológico Municipal &quot;Quinzinho de Barros&quot;"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/zoo2" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/zoo3" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@mipmap/zoo4" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="O Parque Zoológico Municipal Quinzinho de Barros – Zoológico Municipal de Sorocaba é um jardim zoológico situado no município de Sorocaba, estado de São Paulo, no Brasil, sendo considerado o segundo zoológico do Brasil em número de espécies.  Inserido na Vila Hortência, dentro da região leste da cidade de Sorocaba, em uma área de cerca de 130.000 m², tem em seu interior uma faixa de mata atlântica de transição em estágio secundário, um lago, o Museu Histórico Sorocabano e abrigava em 1992, segundo levantamento feito pela Sociedade de Zoológicos do Brasil, um total de 1487 espécimes de 353 espécies entre mamíferos, aves e répteis, sendo 70% pertencentes à fauna brasileira, tendo dentre elas 36 espécies ameaçadas de extinção." />
+
+            <Button
+                android:id="@+id/btnMapaZoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="BtnMapaZoo"
+                android:text="Mapa" />
+
+            <Button
+                android:id="@+id/btnSiteZoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Site" />
+
+            <Button
+                android:id="@+id/btnTelZoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="BtnTelefoneZoo"
+                android:text="Ligar" />
+
+            <Button
+                android:id="@+id/btnVoltarZoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="btnFechar"
+                android:text="Voltar" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
