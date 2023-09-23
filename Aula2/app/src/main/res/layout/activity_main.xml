@@ -80,6 +80,7 @@
                 android:id="@+id/btnIgua"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="BtnTelaIgua"
                 android:text="Saiba mais"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1" />

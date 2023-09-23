@@ -10,26 +10,26 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main3);
     }
 
     public void btnFechar(View view){
         finish();
     }
 
-    public void BtnMapaZoo(View view){
-        Uri uri = Uri.parse("geo: 0,0?q=Rua+Teodoro+Kaisel+883");
+    public void BtnMapaIgua(View view){
+        Uri uri = Uri.parse("geo: 0,0?q=Avenida+Professora+Izoraida+Marques+Peres");
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         startActivity(intent);
     }
 
-    public void BtnTelefoneZoo(View view){
-        Uri uri = Uri.parse("tel: 1532275454");
+    public void BtnTelefoneIgua(View view){
+        Uri uri = Uri.parse("tel: 1530421400");
         Intent intent = new Intent(Intent.ACTION_CALL, uri);
         int permissionCheck = ContextCompat.checkSelfPermission(this, android.Manifest.permission.CALL_PHONE);
         if(permissionCheck != PackageManager.PERMISSION_GRANTED){
@@ -39,8 +39,8 @@ public class MainActivity2 extends AppCompatActivity {
         }
     }
 
-    public void BtnNavegadorZoo(View view){
-        Uri webpage = Uri.parse("https://www.sorocaba.sp.gov.br/zoologico/");
+    public void BtnNavegadorIgua(View view){
+        Uri webpage = Uri.parse("https://iguatemi.com.br/esplanada/");
         Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
         startActivity(intent);
     }
