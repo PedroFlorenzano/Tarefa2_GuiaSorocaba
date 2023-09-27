@@ -28,9 +28,10 @@
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="46dp"
                 android:fontFamily="sans-serif-black"
                 android:text="GUIA DA CIDADE DE SOROCABA"
+                android:gravity="center"
                 android:textAlignment="center"
                 android:textAllCaps="true"
                 android:textIsSelectable="false"
@@ -46,8 +47,9 @@
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Parque Zoológico Municipal &quot;Quinzinho de Barros&quot;"
+                android:layout_height="47dp"
+                android:gravity="center"
+                android:text="Parque Zoológico Municipal"
                 android:textAlignment="center"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -56,10 +58,13 @@
                 android:id="@+id/btnZoo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="BtnTelaZoo"
                 android:text="Saiba mais"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -70,7 +75,8 @@
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="47dp"
+                android:gravity="center"
                 android:text="Iguatemi Esplanada"
                 android:textAlignment="center"
                 android:textSize="16sp"
@@ -80,21 +86,26 @@
                 android:id="@+id/btnIgua"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="BtnTelaIgua"
                 android:text="Saiba mais"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
                 app:srcCompat="@mipmap/parque1" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="47dp"
+                android:gravity="center"
                 android:text="Parque Natural Chico Mendes "
                 android:textAlignment="center"
                 android:textSize="16sp"
@@ -104,9 +115,13 @@
                 android:id="@+id/btnParque"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:onClick="BtnTelaParque"
                 android:text="Saiba mais"
                 android:textAlignment="center"
-                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="16sp" />
 
         </LinearLayout>
     </ScrollView>

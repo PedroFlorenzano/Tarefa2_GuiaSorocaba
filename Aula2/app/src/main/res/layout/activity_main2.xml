@@ -26,8 +26,9 @@
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Parque Zoológico Municipal &quot;Quinzinho de Barros&quot;"
+                android:layout_height="50dp"
+                android:text="Parque Zoológico Municipal"
+                android:gravity="center"
                 android:textAlignment="center"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -47,19 +48,37 @@
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="287dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
                 app:srcCompat="@mipmap/zoo4" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descrição"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="O Parque Zoológico Municipal Quinzinho de Barros – Zoológico Municipal de Sorocaba é um jardim zoológico situado no município de Sorocaba, estado de São Paulo, no Brasil, sendo considerado o segundo zoológico do Brasil em número de espécies.  Inserido na Vila Hortência, dentro da região leste da cidade de Sorocaba, em uma área de cerca de 130.000 m², tem em seu interior uma faixa de mata atlântica de transição em estágio secundário, um lago, o Museu Histórico Sorocabano e abrigava em 1992, segundo levantamento feito pela Sociedade de Zoológicos do Brasil, um total de 1487 espécimes de 353 espécies entre mamíferos, aves e répteis, sendo 70% pertencentes à fauna brasileira, tendo dentre elas 36 espécies ameaçadas de extinção." />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="O Parque Zoológico Municipal Quinzinho de Barros – Zoológico Municipal de Sorocaba é um jardim zoológico situado no município de Sorocaba, estado de São Paulo, no Brasil, sendo considerado o segundo zoológico do Brasil em número de espécies.  Inserido na Vila Hortência, dentro da região leste da cidade de Sorocaba, em uma área de cerca de 130.000 m², tem em seu interior uma faixa de mata atlântica de transição em estágio secundário, um lago, o Museu Histórico Sorocabano e abrigava em 1992, segundo levantamento feito pela Sociedade de Zoológicos do Brasil, um total de 1487 espécimes de 353 espécies entre mamíferos, aves e répteis, sendo 70% pertencentes à fauna brasileira, tendo dentre elas 36 espécies ameaçadas de extinção."
+                android:textAlignment="center" />
 
             <Button
                 android:id="@+id/btnMapaZoo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="BtnMapaZoo"
                 android:text="Mapa" />
 
@@ -67,6 +86,8 @@
                 android:id="@+id/btnSiteZoo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="BtnNavegadorZoo"
                 android:text="Site" />
 
@@ -74,6 +95,8 @@
                 android:id="@+id/btnTelZoo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="BtnTelefoneZoo"
                 android:text="Ligar" />
 
@@ -81,6 +104,8 @@
                 android:id="@+id/btnVoltarZoo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="btnFechar"
                 android:text="Voltar" />
         </LinearLayout>

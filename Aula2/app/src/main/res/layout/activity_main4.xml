@@ -26,8 +26,9 @@
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="71dp"
                 android:text="Parque Natural Chico Mendes "
+                android:gravity="center"
                 android:textAlignment="center"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -42,6 +43,8 @@
                 android:id="@+id/imageView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
                 app:srcCompat="@mipmap/zoo3" />
 
             <ImageView
@@ -51,15 +54,32 @@
                 app:srcCompat="@mipmap/zoo4" />
 
             <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Descrição"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="O Parque Natural dos Esportes &quot;Chico Mendes&quot;, criado em 22 de dezembro de 1977, é um parque municipal da cidade de Sorocaba. Possui uma grande área verde, 155.649 m² com cobertura vegetal predominante de eucaliptos, um lago e trilhas para atividades educativas. Há também preservação de áreas de mata ciliar. Situa-se na Avenida Três de Março, 1.025 - Alto da Boa Vista - Sorocaba - SP, na estrada que vai para o Bairro Aparecidinha." />
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="O Parque Natural dos Esportes &quot;Chico Mendes&quot;, criado em 22 de dezembro de 1977, é um parque municipal da cidade de Sorocaba. Possui uma grande área verde, 155.649 m² com cobertura vegetal predominante de eucaliptos, um lago e trilhas para atividades educativas. Há também preservação de áreas de mata ciliar. Situa-se na Avenida Três de Março, 1.025 - Alto da Boa Vista - Sorocaba - SP, na estrada que vai para o Bairro Aparecidinha."
+                android:textAlignment="center" />
 
             <Button
                 android:id="@+id/btnMapaParque"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="BtnMapaParque"
                 android:text="Mapa" />
 
@@ -67,6 +87,8 @@
                 android:id="@+id/btnSiteParque"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="BtnNavegadorParque"
                 android:text="Site" />
 
@@ -74,6 +96,8 @@
                 android:id="@+id/btnTelParque"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="BtnTelefoneParque"
                 android:text="Ligar" />
 
@@ -81,6 +105,8 @@
                 android:id="@+id/btnVoltarParque"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
                 android:onClick="btnFechar"
                 android:text="Voltar" />
         </LinearLayout>
